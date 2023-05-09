@@ -38,11 +38,12 @@ body {
     padding: 5px 10px;
     background-color: #333;
     border-radius: 5px;
-    transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.4s ease-in-out, padding 0.4s;
   }
   
-  .menu li:hover {
-    background-color: rgba(65, 62, 62, 0.5);
+  .menu ul li a:hover {
+    background-color: rgba(161, 4, 4, 0.5);
+    padding: 10px 15px;
   }
   
   .menu li:last-child {
@@ -61,7 +62,7 @@ body {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid green;
+    border: 2px solid rgb(97, 9, 9);
     filter: blur(3px);
     transition: filter 1s, width 1s, height 1s;
   }
@@ -72,15 +73,15 @@ body {
   }
   
   h4 {
-    color: rgb(99, 150, 99);
+    color: rgb(97, 9, 9);
   }
   
   #titulo-nome {
-    color: rgb(40, 153, 40);
+    color: rgb(131, 0, 0);
   }
   
   h3 {
-    color: rgb(85, 161, 85);
+    color: rgb(97, 9, 9);
   }
   
   .conteudo {
@@ -118,20 +119,20 @@ body {
       }
       
       .social-icons li a:hover {
-        color: green;
+        color: rgb(97, 9, 9);
       }
       .projeto-link {
         font-size: 1.2em;
         font-weight: bold;
-        color: #007bff;
+        color: #530000;
         text-decoration: none;
-        border-bottom: 2px solid #5298e4;
+        border-bottom: 2px solid #8a1a1a;
         padding-bottom: 2px;
         transition: border-bottom-color 0.2s ease;
       }
       
       .projeto-link:hover {
-        border-bottom-color: #112035;
+        border-bottom-color: #8a2929;
       }
 
       p{
@@ -143,7 +144,7 @@ body {
       #titulo-projetos {
         font-size: 40px;
         text-align: center;
-        color: rgb(67, 221, 67);
+        color: rgb(131, 0, 0);
     }
 
     .foto-projeto{
