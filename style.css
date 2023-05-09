@@ -91,6 +91,7 @@ body {
   .conteudo {
     margin-top: 100px;
     padding: 20px;
+    margin-bottom: 50px;
   }
   
    
@@ -140,13 +141,17 @@ body {
       }
 
       p{
-        color:#f7dede;
+        color:#e2e2e2;
       }
       .p-principal{
         font-size: 12px;
       }
+      .p-info{
+        font-size: 10px;
+        color: rgb(167, 167, 167);
+      }
       li{
-        color:#f7dede;
+        color:#e2e2e2;
         font-size: 12px;
       }
       #titulo-projetos {
