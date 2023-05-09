@@ -63,7 +63,7 @@ body {
     object-fit: cover;
     border: 2px solid green;
     filter: blur(3px);
-    transition: filter 0.5s;
+    transition: filter 1s, width 1s, height 1s;
   }
   #foto-cabecalho:hover{
     width: 230px;
@@ -125,13 +125,13 @@ body {
         font-weight: bold;
         color: #007bff;
         text-decoration: none;
-        border-bottom: 2px solid #007bff;
+        border-bottom: 2px solid #5298e4;
         padding-bottom: 2px;
         transition: border-bottom-color 0.2s ease;
       }
       
       .projeto-link:hover {
-        border-bottom-color: #004aad;
+        border-bottom-color: #112035;
       }
 
       p{
@@ -144,6 +144,20 @@ body {
         font-size: 40px;
         text-align: center;
         color: rgb(67, 221, 67);
+    }
+
+    .foto-projeto{
+      width: 500px;
+      height: 300px;
+      filter: blur(1px);
+      transition: filter 1s, width 1s, height 1s;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    .foto-projeto:hover{
+      filter: blur(0px);
+      width: 600px;
+      height: 400px;
     }
       
       
