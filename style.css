@@ -1,3 +1,6 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body {
     background-color: rgb(65, 62, 62);
   }
@@ -44,6 +47,7 @@ body {
   .menu ul li a:hover {
     background-color: rgba(161, 4, 4, 0.5);
     padding: 10px 15px;
+    
   }
   
   .menu li:last-child {
@@ -138,8 +142,12 @@ body {
       p{
         color:#f7dede;
       }
+      .p-principal{
+        font-size: 12px;
+      }
       li{
         color:#f7dede;
+        font-size: 12px;
       }
       #titulo-projetos {
         font-size: 40px;
