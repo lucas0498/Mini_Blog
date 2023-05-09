@@ -2,11 +2,17 @@
     margin-bottom: 20px;
     text-align: center;
 }
+h2{
+    text-align: center;
+    font-size: 40px;
+}
   
 label {
     display: block;
     margin-bottom: 5px;
     text-align: left;
+    color: #f7dede;
+    padding-left: 70px;
 }
   
 input,
@@ -40,6 +46,8 @@ button[type="submit"] {
     font-size: 16px;
     padding: 10px 20px;
     transition: background-color 0.2s ease-in-out;
+    width: 10%;
+    margin-left: 45%;
 }
   
 button[type="submit"]:hover {
