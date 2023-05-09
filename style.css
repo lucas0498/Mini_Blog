@@ -62,18 +62,25 @@ body {
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid green;
+    filter: blur(3px);
+    transition: filter 0.5s;
+  }
+  #foto-cabecalho:hover{
+    width: 230px;
+    height: 230px;
+    filter: blur(0px);
   }
   
   h4 {
-    color: green;
+    color: rgb(99, 150, 99);
   }
   
-  h2 {
-    color: green;
+  #titulo-nome {
+    color: rgb(40, 153, 40);
   }
   
   h3 {
-    color: rgb(90, 167, 90);
+    color: rgb(85, 161, 85);
   }
   
   .conteudo {
@@ -127,7 +134,16 @@ body {
         border-bottom-color: #004aad;
       }
 
-
-
+      p{
+        color:#f7dede;
+      }
+      li{
+        color:#f7dede;
+      }
+      #titulo-projetos {
+        font-size: 40px;
+        text-align: center;
+        color: rgb(67, 221, 67);
+    }
       
       
