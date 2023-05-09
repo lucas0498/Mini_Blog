@@ -113,7 +113,19 @@ body {
       .social-icons li a:hover {
         color: green;
       }
-
+      .projeto-link {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #007bff;
+        text-decoration: none;
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 2px;
+        transition: border-bottom-color 0.2s ease;
+      }
+      
+      .projeto-link:hover {
+        border-bottom-color: #004aad;
+      }
 
 
 
