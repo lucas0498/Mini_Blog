@@ -11,8 +11,9 @@ label {
     display: block;
     margin-bottom: 5px;
     text-align: left;
-    color: #f7dede;
+    color: rgb(97, 9, 9);
     padding-left: 70px;
+    font-size: large;
 }
   
 input,
@@ -53,4 +54,9 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #555;
     padding: 15px 25px;
+}
+
+#titulo-contato{
+    font-size: 40px;
+    color: rgb(131, 0, 0);
 }
