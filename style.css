@@ -78,20 +78,25 @@ body {
   
   h4 {
     color: rgb(97, 9, 9);
+    margin-bottom: 0;
   }
   
   #titulo-nome {
     color: rgb(131, 0, 0);
+    margin-bottom: 1px;
+    padding-bottom: 1px;
   }
   
   h3 {
     color: rgb(97, 9, 9);
+    margin-bottom: 0;
+    padding: 0;
   }
   
   .conteudo {
-    margin-top: 70px;
+    margin-top: 20px;
     padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
   
    
@@ -102,8 +107,8 @@ body {
         width: 100%;
         background-color: #333;
         color: #fff;
-        padding: 10px;
-        margin-top: 20px;
+        padding: 3px;
+        margin-top: 50px;
                
       }
       .social-icons {
@@ -142,11 +147,20 @@ body {
 
       p{
         color:#e2e2e2;
+        margin-top: 0;
+        margin-bottom: 0;
       }
       .p-principal{
         font-size: 12px;
+        margin-top: 0;
       }
       .p-info{
+        font-size: 10px;
+        color: rgb(167, 167, 167);
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .lista-skills{
         font-size: 10px;
         color: rgb(167, 167, 167);
       }
@@ -154,24 +168,28 @@ body {
         color:#e2e2e2;
         font-size: 12px;
       }
+
+      ul{
+        margin-top: 0;
+        padding-top: 0;
+      }
       #titulo-projetos {
         font-size: 40px;
         text-align: center;
         color: rgb(131, 0, 0);
+        margin-bottom: 0;
+        margin-top: 10px;
     }
 
-    .foto-projeto{
-      width: 500px;
-      height: 300px;
-      filter: blur(1px);
-      transition: filter 1s, width 1s, height 1s;
-      border-radius: 10px;
-      margin-top: 10px;
-    }
-    .foto-projeto:hover{
-      filter: blur(0px);
-      width: 600px;
-      height: 400px;
-    }
-      
+      iframe{
+        margin-left: 35%;
+        margin-top: 0;
+        padding-top: 0;
+        filter: blur(3px);
+        transition: filter 1s;
+        
+      }
+      iframe:hover{
+        filter: blur(0px);
+      }
       
